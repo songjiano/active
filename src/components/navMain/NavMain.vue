@@ -54,7 +54,6 @@ export default defineComponent({
           const pair = vars[i].split('=');
           obj[pair[0]] = pair[1];
         }
-    alert(JSON.stringify(obj.code))
     })
     const send = async () => {
       let urlEncode=encodeURIComponent('http://172.18.10.221:8080/#/')
